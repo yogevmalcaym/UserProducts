@@ -1,0 +1,18 @@
+{
+  "name": "any-vision-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd backend && yarn start\" \"cd client && yarn start\"",
+    "start-with-npm": "concurrently \"cd backend && npm run start\" \"cd client && npm run start\"",
+    "install-all": "concurrently \"cd backend && yarn\" \"cd client && yarn\"",
+    "install-all-with-npm": "concurrently \"cd backend && npm i\" \"cd client && npm i\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.1.2"
+  }
+}
